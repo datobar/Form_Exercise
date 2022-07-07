@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Assignment</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <article id="form-article">
+        <form>
+          <h1>Sign Up</h1>
+          <input id="first" type="text" placeholder="First Name"><input id="last" type="text" placeholder="Last Name">
+          <br>
+          <input type="number" placeholder="Mobile No." id="phone">
+          <br>
+          <input type="text" placeholder="Email Address" id="email">
+          <br>
+          <input id="password" type="text" placeholder="Password" required><input id="password" type="text" placeholder="Confirm Password" required>
+          <br>
+          <div id="container">
+            <div class="agree">
+              <label for="agree"><input id="agree" type="checkbox" name="agree"> I agree</label>
+            </div>
+            <div class="terms">
+              <p id="terms">By clicking <span class="register">Register</span>, you agree to the <a href="https://nowhere.com">Terms and Conditions</a> set out by this site, including our Cookie use.</p>
+            </div>
+          </div>
+          <br>
+          <button id="register">Register</button>
+          <button id="signin">Sign In</button>
+        </form>
+      </article>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>

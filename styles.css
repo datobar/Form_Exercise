@@ -1,0 +1,77 @@
+#form-article {
+  max-width: 500px;
+  text-align: center;
+}
+
+#first, #last, #email, #phone, #password {
+  margin: 5px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+#first, #last, #password {
+  width: 100%;
+  max-width: 150px;
+}
+
+#email, #phone {
+  width: 100%;
+  max-width: 312px;
+}
+
+#register, #signin {
+  width: 100%;
+  max-width: 160px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+  margin-bottom: -30px;
+}
+
+#register {
+  background-color: rgb(35, 154, 193);
+}
+
+#signin {
+  background-color: rgb(67, 222, 85);
+}
+
+#container {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#terms {
+  max-width: 250px;
+  width: 100%;
+}
+
+.agree {
+  margin-top: 10px;
+}
+
+.terms {
+  /* flex-grow: 4; */
+  text-align: left;
+  margin-left: 30px;
+}
+
+.register {
+  background-color: rgb(35, 154, 193);
+  border-radius: 2px;
+  color: white;
+  padding: 1px;
+}
+
+a {
+  text-decoration: none;
+}
